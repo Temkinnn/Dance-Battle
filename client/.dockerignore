@@ -1,0 +1,13 @@
+fly.toml
+
+# Produced inside the image: node_modules by `npm ci`, dist by `npm run build`,
+# and the MediaPipe wasm/models by the postinstall script.
+node_modules
+dist
+public/wasm
+public/models
+.git
+.github
+.env
+.env.*
+.DS_Store
